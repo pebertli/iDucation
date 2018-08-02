@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1DD3F524-D83F-45FE-A228-C24AC21E85B2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>bohrheat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6225B61D-2193-4C53-9034-2E71D9B8B6A5</key>
+		<string>https://pebertli.codespaces.com/svn/f001_bohr_heat</string>
+		<key>AD70D286-7DFB-454E-B9F0-BAE873BA632A</key>
+		<string>http://pebertli.codespaces.com/svn/hvcommon</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>bohrheat/bohrheat.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6225B61D-2193-4C53-9034-2E71D9B8B6A5</key>
+		<string>../../..</string>
+		<key>AD70D286-7DFB-454E-B9F0-BAE873BA632A</key>
+		<string>../../../../hvcommon</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>6225B61D-2193-4C53-9034-2E71D9B8B6A5</key>
+		<string>https://pebertli.codespaces.com/svn/f001_bohr_heat</string>
+		<key>AD70D286-7DFB-454E-B9F0-BAE873BA632A</key>
+		<string>http://pebertli.codespaces.com/svn/hvcommon</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://pebertli.codespaces.com/svn/f001_bohr_heat/bohrheat/bohrheat.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6225B61D-2193-4C53-9034-2E71D9B8B6A5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6225B61D-2193-4C53-9034-2E71D9B8B6A5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>f001_bohr_heat</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AD70D286-7DFB-454E-B9F0-BAE873BA632A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hvcommon</string>
+		</dict>
+	</array>
+</dict>
+</plist>

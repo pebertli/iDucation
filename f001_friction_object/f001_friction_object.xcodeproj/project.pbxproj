@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C8A7D7718019171006FC0AE /* IDCAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A7D7618019171006FC0AE /* IDCAtom.m */; };
+		3CA905641805A4B000242098 /* glow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA905631805A4B000242098 /* glow.png */; };
+		3CAEFFCA17FF1A6D00F43C57 /* HVCustomizedViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAEFFBE17FF1A6D00F43C57 /* HVCustomizedViews.m */; };
+		3CAEFFCB17FF1A6D00F43C57 /* HVGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAEFFC017FF1A6D00F43C57 /* HVGeometry.m */; };
+		3CAEFFCD17FF1A6D00F43C57 /* HVParticleSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAEFFC417FF1A6D00F43C57 /* HVParticleSystem.m */; };
+		3CAEFFCF17FF1A6D00F43C57 /* HVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAEFFC817FF1A6D00F43C57 /* HVUtils.m */; };
+		3CF60C9F17FF004F0087F636 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF60C9E17FF004F0087F636 /* Foundation.framework */; };
+		3CF60CA117FF004F0087F636 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF60CA017FF004F0087F636 /* CoreGraphics.framework */; };
+		3CF60CA317FF004F0087F636 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF60CA217FF004F0087F636 /* UIKit.framework */; };
+		3CF60CA917FF004F0087F636 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CF60CA717FF004F0087F636 /* InfoPlist.strings */; };
+		3CF60CAB17FF004F0087F636 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF60CAA17FF004F0087F636 /* main.m */; };
+		3CF60CAF17FF004F0087F636 /* IDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF60CAE17FF004F0087F636 /* IDCAppDelegate.m */; };
+		3CF60CB217FF004F0087F636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF60CB017FF004F0087F636 /* Main.storyboard */; };
+		3CF60CB517FF004F0087F636 /* IDCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF60CB417FF004F0087F636 /* IDCViewController.m */; };
+		3CF60CB717FF004F0087F636 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF60CB617FF004F0087F636 /* Images.xcassets */; };
+		3CF60CBE17FF00500087F636 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF60CBD17FF00500087F636 /* XCTest.framework */; };
+		3CF60CBF17FF00500087F636 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF60C9E17FF004F0087F636 /* Foundation.framework */; };
+		3CF60CC017FF00500087F636 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF60CA217FF004F0087F636 /* UIKit.framework */; };
+		3CF60CC817FF00500087F636 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CF60CC617FF00500087F636 /* InfoPlist.strings */; };
+		3CF60CCA17FF00500087F636 /* f001_friction_objectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF60CC917FF00500087F636 /* f001_friction_objectTests.m */; };
+		3CF60CD617FF05AE0087F636 /* positive.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF60CD417FF05AE0087F636 /* positive.png */; };
+		3CF60CD717FF05AE0087F636 /* negative.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF60CD517FF05AE0087F636 /* negative.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF60CC117FF00500087F636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF60C9317FF004F0087F636 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF60C9A17FF004F0087F636;
+			remoteInfo = f001_friction_object;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C8A7D7518019171006FC0AE /* IDCAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCAtom.h; sourceTree = "<group>"; };
+		3C8A7D7618019171006FC0AE /* IDCAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCAtom.m; sourceTree = "<group>"; };
+		3CA905631805A4B000242098 /* glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glow.png; sourceTree = "<group>"; };
+		3CAEFFBD17FF1A6D00F43C57 /* HVCustomizedViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVCustomizedViews.h; sourceTree = "<group>"; };
+		3CAEFFBE17FF1A6D00F43C57 /* HVCustomizedViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVCustomizedViews.m; sourceTree = "<group>"; };
+		3CAEFFBF17FF1A6D00F43C57 /* HVGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVGeometry.h; sourceTree = "<group>"; };
+		3CAEFFC017FF1A6D00F43C57 /* HVGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVGeometry.m; sourceTree = "<group>"; };
+		3CAEFFC317FF1A6D00F43C57 /* HVParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVParticleSystem.h; sourceTree = "<group>"; };
+		3CAEFFC417FF1A6D00F43C57 /* HVParticleSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVParticleSystem.m; sourceTree = "<group>"; };
+		3CAEFFC717FF1A6D00F43C57 /* HVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVUtils.h; sourceTree = "<group>"; };
+		3CAEFFC817FF1A6D00F43C57 /* HVUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVUtils.m; sourceTree = "<group>"; };
+		3CF60C9B17FF004F0087F636 /* f001_friction_object.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = f001_friction_object.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF60C9E17FF004F0087F636 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CF60CA017FF004F0087F636 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3CF60CA217FF004F0087F636 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3CF60CA617FF004F0087F636 /* f001_friction_object-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "f001_friction_object-Info.plist"; sourceTree = "<group>"; };
+		3CF60CA817FF004F0087F636 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CF60CAA17FF004F0087F636 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CF60CAC17FF004F0087F636 /* f001_friction_object-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "f001_friction_object-Prefix.pch"; sourceTree = "<group>"; };
+		3CF60CAD17FF004F0087F636 /* IDCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDCAppDelegate.h; sourceTree = "<group>"; };
+		3CF60CAE17FF004F0087F636 /* IDCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCAppDelegate.m; sourceTree = "<group>"; };
+		3CF60CB117FF004F0087F636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CF60CB317FF004F0087F636 /* IDCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDCViewController.h; sourceTree = "<group>"; };
+		3CF60CB417FF004F0087F636 /* IDCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCViewController.m; sourceTree = "<group>"; };
+		3CF60CB617FF004F0087F636 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3CF60CBC17FF00500087F636 /* f001_friction_objectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = f001_friction_objectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF60CBD17FF00500087F636 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3CF60CC517FF00500087F636 /* f001_friction_objectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "f001_friction_objectTests-Info.plist"; sourceTree = "<group>"; };
+		3CF60CC717FF00500087F636 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CF60CC917FF00500087F636 /* f001_friction_objectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = f001_friction_objectTests.m; sourceTree = "<group>"; };
+		3CF60CD417FF05AE0087F636 /* positive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = positive.png; sourceTree = "<group>"; };
+		3CF60CD517FF05AE0087F636 /* negative.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = negative.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF60C9817FF004F0087F636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF60CA117FF004F0087F636 /* CoreGraphics.framework in Frameworks */,
+				3CF60CA317FF004F0087F636 /* UIKit.framework in Frameworks */,
+				3CF60C9F17FF004F0087F636 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF60CB917FF00500087F636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF60CBE17FF00500087F636 /* XCTest.framework in Frameworks */,
+				3CF60CC017FF00500087F636 /* UIKit.framework in Frameworks */,
+				3CF60CBF17FF00500087F636 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAEFFBA17FF1A6D00F43C57 /* hvcommon */ = {
+			isa = PBXGroup;
+			children = (
+				3CAEFFBD17FF1A6D00F43C57 /* HVCustomizedViews.h */,
+				3CAEFFBE17FF1A6D00F43C57 /* HVCustomizedViews.m */,
+				3CAEFFBF17FF1A6D00F43C57 /* HVGeometry.h */,
+				3CAEFFC017FF1A6D00F43C57 /* HVGeometry.m */,
+				3CAEFFC317FF1A6D00F43C57 /* HVParticleSystem.h */,
+				3CAEFFC417FF1A6D00F43C57 /* HVParticleSystem.m */,
+				3CAEFFC717FF1A6D00F43C57 /* HVUtils.h */,
+				3CAEFFC817FF1A6D00F43C57 /* HVUtils.m */,
+			);
+			name = hvcommon;
+			path = ../hvcommon;
+			sourceTree = "<group>";
+		};
+		3CF60C9217FF004F0087F636 = {
+			isa = PBXGroup;
+			children = (
+				3CAEFFBA17FF1A6D00F43C57 /* hvcommon */,
+				3CF60CD317FF043D0087F636 /* assets */,
+				3CF60CA417FF004F0087F636 /* f001_friction_object */,
+				3CF60CC317FF00500087F636 /* f001_friction_objectTests */,
+				3CF60C9D17FF004F0087F636 /* Frameworks */,
+				3CF60C9C17FF004F0087F636 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF60C9C17FF004F0087F636 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF60C9B17FF004F0087F636 /* f001_friction_object.app */,
+				3CF60CBC17FF00500087F636 /* f001_friction_objectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF60C9D17FF004F0087F636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CF60C9E17FF004F0087F636 /* Foundation.framework */,
+				3CF60CA017FF004F0087F636 /* CoreGraphics.framework */,
+				3CF60CA217FF004F0087F636 /* UIKit.framework */,
+				3CF60CBD17FF00500087F636 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CF60CA417FF004F0087F636 /* f001_friction_object */ = {
+			isa = PBXGroup;
+			children = (
+				3C8A7D7518019171006FC0AE /* IDCAtom.h */,
+				3C8A7D7618019171006FC0AE /* IDCAtom.m */,
+				3CF60CAD17FF004F0087F636 /* IDCAppDelegate.h */,
+				3CF60CAE17FF004F0087F636 /* IDCAppDelegate.m */,
+				3CF60CB017FF004F0087F636 /* Main.storyboard */,
+				3CF60CB317FF004F0087F636 /* IDCViewController.h */,
+				3CF60CB417FF004F0087F636 /* IDCViewController.m */,
+				3CF60CB617FF004F0087F636 /* Images.xcassets */,
+				3CF60CA517FF004F0087F636 /* Supporting Files */,
+			);
+			path = f001_friction_object;
+			sourceTree = "<group>";
+		};
+		3CF60CA517FF004F0087F636 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CF60CA617FF004F0087F636 /* f001_friction_object-Info.plist */,
+				3CF60CA717FF004F0087F636 /* InfoPlist.strings */,
+				3CF60CAA17FF004F0087F636 /* main.m */,
+				3CF60CAC17FF004F0087F636 /* f001_friction_object-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CF60CC317FF00500087F636 /* f001_friction_objectTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF60CC917FF00500087F636 /* f001_friction_objectTests.m */,
+				3CF60CC417FF00500087F636 /* Supporting Files */,
+			);
+			path = f001_friction_objectTests;
+			sourceTree = "<group>";
+		};
+		3CF60CC417FF00500087F636 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CF60CC517FF00500087F636 /* f001_friction_objectTests-Info.plist */,
+				3CF60CC617FF00500087F636 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CF60CD317FF043D0087F636 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				3CA905631805A4B000242098 /* glow.png */,
+				3CF60CD417FF05AE0087F636 /* positive.png */,
+				3CF60CD517FF05AE0087F636 /* negative.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF60C9A17FF004F0087F636 /* f001_friction_object */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF60CCD17FF00500087F636 /* Build configuration list for PBXNativeTarget "f001_friction_object" */;
+			buildPhases = (
+				3CF60C9717FF004F0087F636 /* Sources */,
+				3CF60C9817FF004F0087F636 /* Frameworks */,
+				3CF60C9917FF004F0087F636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = f001_friction_object;
+			productName = f001_friction_object;
+			productReference = 3CF60C9B17FF004F0087F636 /* f001_friction_object.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CF60CBB17FF00500087F636 /* f001_friction_objectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF60CD017FF00500087F636 /* Build configuration list for PBXNativeTarget "f001_friction_objectTests" */;
+			buildPhases = (
+				3CF60CB817FF00500087F636 /* Sources */,
+				3CF60CB917FF00500087F636 /* Frameworks */,
+				3CF60CBA17FF00500087F636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF60CC217FF00500087F636 /* PBXTargetDependency */,
+			);
+			name = f001_friction_objectTests;
+			productName = f001_friction_objectTests;
+			productReference = 3CF60CBC17FF00500087F636 /* f001_friction_objectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF60C9317FF004F0087F636 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IDC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = com.handverse;
+				TargetAttributes = {
+					3CF60CBB17FF00500087F636 = {
+						TestTargetID = 3CF60C9A17FF004F0087F636;
+					};
+				};
+			};
+			buildConfigurationList = 3CF60C9617FF004F0087F636 /* Build configuration list for PBXProject "f001_friction_object" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CF60C9217FF004F0087F636;
+			productRefGroup = 3CF60C9C17FF004F0087F636 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF60C9A17FF004F0087F636 /* f001_friction_object */,
+				3CF60CBB17FF00500087F636 /* f001_friction_objectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF60C9917FF004F0087F636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF60CD717FF05AE0087F636 /* negative.png in Resources */,
+				3CF60CB717FF004F0087F636 /* Images.xcassets in Resources */,
+				3CF60CA917FF004F0087F636 /* InfoPlist.strings in Resources */,
+				3CF60CB217FF004F0087F636 /* Main.storyboard in Resources */,
+				3CA905641805A4B000242098 /* glow.png in Resources */,
+				3CF60CD617FF05AE0087F636 /* positive.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF60CBA17FF00500087F636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF60CC817FF00500087F636 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF60C9717FF004F0087F636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAEFFCB17FF1A6D00F43C57 /* HVGeometry.m in Sources */,
+				3CF60CAB17FF004F0087F636 /* main.m in Sources */,
+				3CAEFFCF17FF1A6D00F43C57 /* HVUtils.m in Sources */,
+				3CAEFFCD17FF1A6D00F43C57 /* HVParticleSystem.m in Sources */,
+				3CF60CAF17FF004F0087F636 /* IDCAppDelegate.m in Sources */,
+				3C8A7D7718019171006FC0AE /* IDCAtom.m in Sources */,
+				3CF60CB517FF004F0087F636 /* IDCViewController.m in Sources */,
+				3CAEFFCA17FF1A6D00F43C57 /* HVCustomizedViews.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF60CB817FF00500087F636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF60CCA17FF00500087F636 /* f001_friction_objectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CF60CC217FF00500087F636 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF60C9A17FF004F0087F636 /* f001_friction_object */;
+			targetProxy = 3CF60CC117FF00500087F636 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CF60CA717FF004F0087F636 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF60CA817FF004F0087F636 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3CF60CB017FF004F0087F636 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF60CB117FF004F0087F636 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CF60CC617FF00500087F636 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF60CC717FF00500087F636 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CF60CCB17FF00500087F636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3CF60CCC17FF00500087F636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CF60CCE17FF00500087F636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "f001_friction_object/f001_friction_object-Prefix.pch";
+				INFOPLIST_FILE = "f001_friction_object/f001_friction_object-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3CF60CCF17FF00500087F636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "f001_friction_object/f001_friction_object-Prefix.pch";
+				INFOPLIST_FILE = "f001_friction_object/f001_friction_object-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3CF60CD117FF00500087F636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/f001_friction_object.app/f001_friction_object";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "f001_friction_object/f001_friction_object-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "f001_friction_objectTests/f001_friction_objectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3CF60CD217FF00500087F636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/f001_friction_object.app/f001_friction_object";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "f001_friction_object/f001_friction_object-Prefix.pch";
+				INFOPLIST_FILE = "f001_friction_objectTests/f001_friction_objectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF60C9617FF004F0087F636 /* Build configuration list for PBXProject "f001_friction_object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF60CCB17FF00500087F636 /* Debug */,
+				3CF60CCC17FF00500087F636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF60CCD17FF00500087F636 /* Build configuration list for PBXNativeTarget "f001_friction_object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF60CCE17FF00500087F636 /* Debug */,
+				3CF60CCF17FF00500087F636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF60CD017FF00500087F636 /* Build configuration list for PBXNativeTarget "f001_friction_objectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF60CD117FF00500087F636 /* Debug */,
+				3CF60CD217FF00500087F636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CF60C9317FF004F0087F636 /* Project object */;
+}

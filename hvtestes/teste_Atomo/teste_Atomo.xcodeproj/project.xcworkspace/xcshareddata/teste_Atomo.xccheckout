@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>422A039A-F444-4626-AA49-4FF97D7454BD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>teste_Atomo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>679DF5D0-433B-46EF-A2E9-BF0E3FC8F34E</key>
+		<string>https://pebertli.codespaces.com/svn/hvtestes</string>
+		<key>AD70D286-7DFB-454E-B9F0-BAE873BA632A</key>
+		<string>http://pebertli.codespaces.com/svn/hvcommon</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>teste_Atomo/teste_Atomo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>679DF5D0-433B-46EF-A2E9-BF0E3FC8F34E</key>
+		<string>../../..</string>
+		<key>AD70D286-7DFB-454E-B9F0-BAE873BA632A</key>
+		<string>../../../../hvcommon</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>679DF5D0-433B-46EF-A2E9-BF0E3FC8F34E</key>
+		<string>https://pebertli.codespaces.com/svn/hvtestes</string>
+		<key>AD70D286-7DFB-454E-B9F0-BAE873BA632A</key>
+		<string>http://pebertli.codespaces.com/svn/hvcommon</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://pebertli.codespaces.com/svn/hvtestes/teste_Atomo/teste_Atomo.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>679DF5D0-433B-46EF-A2E9-BF0E3FC8F34E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AD70D286-7DFB-454E-B9F0-BAE873BA632A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hvcommon</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>679DF5D0-433B-46EF-A2E9-BF0E3FC8F34E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hvtestes</string>
+		</dict>
+	</array>
+</dict>
+</plist>

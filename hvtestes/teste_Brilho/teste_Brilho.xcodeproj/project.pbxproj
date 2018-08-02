@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186E06831761426700255635 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186E06821761426700255635 /* CoreImage.framework */; };
+		1883C89717540F0900CB5DF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1883C89617540F0900CB5DF9 /* UIKit.framework */; };
+		1883C89917540F0900CB5DF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1883C89817540F0900CB5DF9 /* Foundation.framework */; };
+		1883C89B17540F0900CB5DF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1883C89A17540F0900CB5DF9 /* CoreGraphics.framework */; };
+		1883C8A117540F0900CB5DF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1883C89F17540F0900CB5DF9 /* InfoPlist.strings */; };
+		1883C8A317540F0900CB5DF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883C8A217540F0900CB5DF9 /* main.m */; };
+		1883C8A717540F0900CB5DF9 /* teste_BrilhoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883C8A617540F0900CB5DF9 /* teste_BrilhoAppDelegate.m */; };
+		1883C8A917540F0900CB5DF9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1883C8A817540F0900CB5DF9 /* Default.png */; };
+		1883C8AB17540F0900CB5DF9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1883C8AA17540F0900CB5DF9 /* Default@2x.png */; };
+		1883C8AD17540F0900CB5DF9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1883C8AC17540F0900CB5DF9 /* Default-568h@2x.png */; };
+		1883C8B017540F0900CB5DF9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1883C8AE17540F0900CB5DF9 /* MainStoryboard.storyboard */; };
+		1883C8B317540F0900CB5DF9 /* teste_BrilhoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883C8B217540F0900CB5DF9 /* teste_BrilhoViewController.m */; };
+		1883C8C51754159600CB5DF9 /* HVCustomizedViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883C8BD1754159600CB5DF9 /* HVCustomizedViews.m */; };
+		1883C8C61754159600CB5DF9 /* HVGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883C8BF1754159600CB5DF9 /* HVGeometry.m */; };
+		1883C8C71754159600CB5DF9 /* HVToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883C8C11754159600CB5DF9 /* HVToolbar.m */; };
+		1883C8C81754159600CB5DF9 /* HVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883C8C31754159600CB5DF9 /* HVUtils.m */; };
+		1883C8CA175415D300CB5DF9 /* F001_thomson_button_power.png in Resources */ = {isa = PBXBuildFile; fileRef = 1883C8C9175415D300CB5DF9 /* F001_thomson_button_power.png */; };
+		1883C8CC1754498700CB5DF9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1883C8CB1754498700CB5DF9 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186E06821761426700255635 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		1883C89317540F0900CB5DF9 /* teste_Brilho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teste_Brilho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1883C89617540F0900CB5DF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1883C89817540F0900CB5DF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1883C89A17540F0900CB5DF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1883C89E17540F0900CB5DF9 /* teste_Brilho-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "teste_Brilho-Info.plist"; sourceTree = "<group>"; };
+		1883C8A017540F0900CB5DF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1883C8A217540F0900CB5DF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1883C8A417540F0900CB5DF9 /* teste_Brilho-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "teste_Brilho-Prefix.pch"; sourceTree = "<group>"; };
+		1883C8A517540F0900CB5DF9 /* teste_BrilhoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = teste_BrilhoAppDelegate.h; sourceTree = "<group>"; };
+		1883C8A617540F0900CB5DF9 /* teste_BrilhoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = teste_BrilhoAppDelegate.m; sourceTree = "<group>"; };
+		1883C8A817540F0900CB5DF9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1883C8AA17540F0900CB5DF9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1883C8AC17540F0900CB5DF9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1883C8AF17540F0900CB5DF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1883C8B117540F0900CB5DF9 /* teste_BrilhoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = teste_BrilhoViewController.h; sourceTree = "<group>"; };
+		1883C8B217540F0900CB5DF9 /* teste_BrilhoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = teste_BrilhoViewController.m; sourceTree = "<group>"; };
+		1883C8BC1754159600CB5DF9 /* HVCustomizedViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVCustomizedViews.h; sourceTree = "<group>"; };
+		1883C8BD1754159600CB5DF9 /* HVCustomizedViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVCustomizedViews.m; sourceTree = "<group>"; };
+		1883C8BE1754159600CB5DF9 /* HVGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVGeometry.h; sourceTree = "<group>"; };
+		1883C8BF1754159600CB5DF9 /* HVGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVGeometry.m; sourceTree = "<group>"; };
+		1883C8C01754159600CB5DF9 /* HVToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVToolbar.h; sourceTree = "<group>"; };
+		1883C8C11754159600CB5DF9 /* HVToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVToolbar.m; sourceTree = "<group>"; };
+		1883C8C21754159600CB5DF9 /* HVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVUtils.h; sourceTree = "<group>"; };
+		1883C8C31754159600CB5DF9 /* HVUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVUtils.m; sourceTree = "<group>"; };
+		1883C8C9175415D300CB5DF9 /* F001_thomson_button_power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = F001_thomson_button_power.png; path = teste_Brilho/F001_thomson_button_power.png; sourceTree = "<group>"; };
+		1883C8CB1754498700CB5DF9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1883C89017540F0900CB5DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186E06831761426700255635 /* CoreImage.framework in Frameworks */,
+				1883C8CC1754498700CB5DF9 /* QuartzCore.framework in Frameworks */,
+				1883C89717540F0900CB5DF9 /* UIKit.framework in Frameworks */,
+				1883C89917540F0900CB5DF9 /* Foundation.framework in Frameworks */,
+				1883C89B17540F0900CB5DF9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1883C88A17540F0900CB5DF9 = {
+			isa = PBXGroup;
+			children = (
+				1883C8C9175415D300CB5DF9 /* F001_thomson_button_power.png */,
+				1883C8B91754159600CB5DF9 /* HVCommon */,
+				1883C89C17540F0900CB5DF9 /* teste_Brilho */,
+				1883C89517540F0900CB5DF9 /* Frameworks */,
+				1883C89417540F0900CB5DF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1883C89417540F0900CB5DF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1883C89317540F0900CB5DF9 /* teste_Brilho.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1883C89517540F0900CB5DF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				186E06821761426700255635 /* CoreImage.framework */,
+				1883C8CB1754498700CB5DF9 /* QuartzCore.framework */,
+				1883C89617540F0900CB5DF9 /* UIKit.framework */,
+				1883C89817540F0900CB5DF9 /* Foundation.framework */,
+				1883C89A17540F0900CB5DF9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1883C89C17540F0900CB5DF9 /* teste_Brilho */ = {
+			isa = PBXGroup;
+			children = (
+				1883C8A517540F0900CB5DF9 /* teste_BrilhoAppDelegate.h */,
+				1883C8A617540F0900CB5DF9 /* teste_BrilhoAppDelegate.m */,
+				1883C8AE17540F0900CB5DF9 /* MainStoryboard.storyboard */,
+				1883C8B117540F0900CB5DF9 /* teste_BrilhoViewController.h */,
+				1883C8B217540F0900CB5DF9 /* teste_BrilhoViewController.m */,
+				1883C89D17540F0900CB5DF9 /* Supporting Files */,
+			);
+			path = teste_Brilho;
+			sourceTree = "<group>";
+		};
+		1883C89D17540F0900CB5DF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1883C89E17540F0900CB5DF9 /* teste_Brilho-Info.plist */,
+				1883C89F17540F0900CB5DF9 /* InfoPlist.strings */,
+				1883C8A217540F0900CB5DF9 /* main.m */,
+				1883C8A417540F0900CB5DF9 /* teste_Brilho-Prefix.pch */,
+				1883C8A817540F0900CB5DF9 /* Default.png */,
+				1883C8AA17540F0900CB5DF9 /* Default@2x.png */,
+				1883C8AC17540F0900CB5DF9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1883C8B91754159600CB5DF9 /* HVCommon */ = {
+			isa = PBXGroup;
+			children = (
+				1883C8BC1754159600CB5DF9 /* HVCustomizedViews.h */,
+				1883C8BD1754159600CB5DF9 /* HVCustomizedViews.m */,
+				1883C8BE1754159600CB5DF9 /* HVGeometry.h */,
+				1883C8BF1754159600CB5DF9 /* HVGeometry.m */,
+				1883C8C01754159600CB5DF9 /* HVToolbar.h */,
+				1883C8C11754159600CB5DF9 /* HVToolbar.m */,
+				1883C8C21754159600CB5DF9 /* HVUtils.h */,
+				1883C8C31754159600CB5DF9 /* HVUtils.m */,
+			);
+			name = HVCommon;
+			path = ../../HVCommon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1883C89217540F0900CB5DF9 /* teste_Brilho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1883C8B617540F0900CB5DF9 /* Build configuration list for PBXNativeTarget "teste_Brilho" */;
+			buildPhases = (
+				1883C88F17540F0900CB5DF9 /* Sources */,
+				1883C89017540F0900CB5DF9 /* Frameworks */,
+				1883C89117540F0900CB5DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = teste_Brilho;
+			productName = teste_Brilho;
+			productReference = 1883C89317540F0900CB5DF9 /* teste_Brilho.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1883C88B17540F0900CB5DF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = teste_Brilho;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Handverse;
+			};
+			buildConfigurationList = 1883C88E17540F0900CB5DF9 /* Build configuration list for PBXProject "teste_Brilho" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1883C88A17540F0900CB5DF9;
+			productRefGroup = 1883C89417540F0900CB5DF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1883C89217540F0900CB5DF9 /* teste_Brilho */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1883C89117540F0900CB5DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883C8A117540F0900CB5DF9 /* InfoPlist.strings in Resources */,
+				1883C8A917540F0900CB5DF9 /* Default.png in Resources */,
+				1883C8AB17540F0900CB5DF9 /* Default@2x.png in Resources */,
+				1883C8AD17540F0900CB5DF9 /* Default-568h@2x.png in Resources */,
+				1883C8B017540F0900CB5DF9 /* MainStoryboard.storyboard in Resources */,
+				1883C8CA175415D300CB5DF9 /* F001_thomson_button_power.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1883C88F17540F0900CB5DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883C8A317540F0900CB5DF9 /* main.m in Sources */,
+				1883C8A717540F0900CB5DF9 /* teste_BrilhoAppDelegate.m in Sources */,
+				1883C8B317540F0900CB5DF9 /* teste_BrilhoViewController.m in Sources */,
+				1883C8C51754159600CB5DF9 /* HVCustomizedViews.m in Sources */,
+				1883C8C61754159600CB5DF9 /* HVGeometry.m in Sources */,
+				1883C8C71754159600CB5DF9 /* HVToolbar.m in Sources */,
+				1883C8C81754159600CB5DF9 /* HVUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1883C89F17540F0900CB5DF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1883C8A017540F0900CB5DF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1883C8AE17540F0900CB5DF9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1883C8AF17540F0900CB5DF9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1883C8B417540F0900CB5DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1883C8B517540F0900CB5DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1883C8B717540F0900CB5DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "teste_Brilho/teste_Brilho-Prefix.pch";
+				INFOPLIST_FILE = "teste_Brilho/teste_Brilho-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1883C8B817540F0900CB5DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "teste_Brilho/teste_Brilho-Prefix.pch";
+				INFOPLIST_FILE = "teste_Brilho/teste_Brilho-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1883C88E17540F0900CB5DF9 /* Build configuration list for PBXProject "teste_Brilho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1883C8B417540F0900CB5DF9 /* Debug */,
+				1883C8B517540F0900CB5DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1883C8B617540F0900CB5DF9 /* Build configuration list for PBXNativeTarget "teste_Brilho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1883C8B717540F0900CB5DF9 /* Debug */,
+				1883C8B817540F0900CB5DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1883C88B17540F0900CB5DF9 /* Project object */;
+}
